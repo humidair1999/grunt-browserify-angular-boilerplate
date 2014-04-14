@@ -34,7 +34,3 @@ module.exports = function(grunt) {
         'run:browserify-app'
     ]);
 };
-
-// browserify -r ./robot > static/common.js
-// browserify -x ./robot.js beep.js > static/beep.js
-// browserify -x ./robot.js boop.js > static/boop.js
