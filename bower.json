@@ -1,0 +1,13 @@
+{
+  "name": "gruntBrowserifyAngular01",
+  "version": "0.0.0",
+  "authors": [
+    "J. Ky Marsh <jkymarsh@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "angular/bower-angular#~1.2.16",
+    "angular-route": "angular/bower-angular-route#~1.2.16"
+  }
+}
