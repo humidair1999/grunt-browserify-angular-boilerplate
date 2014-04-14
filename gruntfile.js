@@ -5,7 +5,9 @@ module.exports = function(grunt) {
                 exec: (function() {
                     var requires =  ' ' +
                                     '-r angular ' +
-                                    '-r angular-route' +
+                                    '-r angular-route ' +
+                                    '-r d3 ' +
+                                    '-r nvd3 ' +
                                     ' ';
 
                     return 'browserify' + requires + '> ./public/js/built/libs.js';
@@ -15,7 +17,9 @@ module.exports = function(grunt) {
                 exec: (function() {
                     var externals =    ' ' +
                                         '-x angular ' +
-                                        '-x angular-route' +
+                                        '-x angular-route ' +
+                                        '-x d3 ' +
+                                        '-x nvd3' +
                                         ' ';
 
                     return 'browserify' + externals + './public/js/app.js > ./public/js/built/app.js';

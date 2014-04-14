@@ -34,7 +34,9 @@
   },
   "browser": {
     "angular": "./bower_components/angular/angular.js",
-    "angular-route": "./bower_components/angular-route/angular-route.js"
+    "angular-route": "./bower_components/angular-route/angular-route.js",
+    "d3": "./bower_components/d3/d3.js",
+    "nvd3": "./bower_components/nvd3/nv.d3.js"
   },
   "browserify-shim": {
     "angular": {
@@ -43,6 +45,14 @@
     "angular-route": {
       "depends": [
         "angular"
+      ]
+    },
+    "d3": {
+      "exports": "d3"
+    },
+    "nvd3": {
+      "depends": [
+        "d3"
       ]
     }
   }

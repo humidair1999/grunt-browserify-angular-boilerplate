@@ -2,7 +2,9 @@
 //  value within browserify-shim; since angular attaches itself to the window, the export lets your module
 //  know to check window object for angular
 var angular = require('angular');
-var angularRoute = require('angular-route');
+require('angular-route');
+var d3 = require('d3');
+require('nvd3');
 
 console.log(angular);
-console.log(angularRoute);
+console.log(d3);
