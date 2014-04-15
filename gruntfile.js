@@ -1,3 +1,5 @@
+//process.env.BROWSERIFYSHIM_DIAGNOSTICS = 1;
+
 module.exports = function(grunt) {
     grunt.initConfig({
         run: {
@@ -15,7 +17,7 @@ module.exports = function(grunt) {
             },
             'browserify-app': {
                 exec: (function() {
-                    var externals =    ' ' +
+                    var externals =     ' ' +
                                         '-x angular ' +
                                         '-x angular-route ' +
                                         '-x d3 ' +

@@ -53,7 +53,8 @@
     "nvd3": {
       "depends": [
         "d3"
-      ]
+      ],
+      "exports": "nv"
     }
   }
 }

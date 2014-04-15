@@ -4,7 +4,8 @@
 var angular = require('angular');
 require('angular-route');
 var d3 = require('d3');
-require('nvd3');
+var nv = require('nvd3');
 
 console.log(angular);
 console.log(d3);
+console.log(nv);
