@@ -6,6 +6,8 @@ require('angular-route');
 var d3 = require('d3');
 var nv = require('nvd3');
 
+var fs = require('fs');
+
 console.log(angular);
 console.log(d3);
 console.log(nv);

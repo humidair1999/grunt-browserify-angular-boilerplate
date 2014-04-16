@@ -25,11 +25,13 @@
     "grunt": "^0.4.4",
     "browserify": "^3.41.0",
     "browserify-shim": "^3.4.1",
-    "grunt-run": "^0.2.1"
+    "grunt-run": "^0.2.1",
+    "brfs": "^1.0.1"
   },
   "browserify": {
     "transform": [
-      "browserify-shim"
+      "browserify-shim",
+      "brfs"
     ]
   },
   "browser": {
